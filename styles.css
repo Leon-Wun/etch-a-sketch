@@ -10,8 +10,17 @@
   grid-template-columns: repeat(var(--grid-cols), 1fr);
 }
 
-.grid-item {
+.gridItem {
   padding: 1em;
   border: 1px solid #ddd;
   text-align: center;
+}
+
+.gridItem {
+  /* Your existing styles */
+  transition: background-color 0.3s;
+}
+
+.gridItem.hovered-class {
+  background-color: red; /* Or whatever color you want for the hover effect */
 }
